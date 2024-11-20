@@ -15,6 +15,7 @@ class Settings:
    
     ID_SPREADSHEET = os.getenv("ID_SPREADSHEET")
     FILE_SECRET_KEY_GCP = os.getenv("FILE_SECRET_KEY_GCP")
+    EXCEL_ROUTE = os.getenv("EXCEL_ROUTE")
     
 
 settings = Settings()
